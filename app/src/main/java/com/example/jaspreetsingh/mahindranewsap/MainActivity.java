@@ -2,6 +2,7 @@ package com.example.jaspreetsingh.mahindranewsap;
 
 import android.app.ActionBar;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -26,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                // Create a new intent to open the {@link HomeActivity}
+                Intent homeIntent = new Intent(MainActivity.this, HomeActivity.this);
             }
         });
     }
