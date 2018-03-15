@@ -29,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Create a new intent to open the {@link HomeActivity}
                 Intent homeIntent = new Intent(MainActivity.this, HomeActivity.this);
+
+                // Start the new HomeActivity
+                startActivity(homeIntent);
             }
         });
     }
