@@ -20,20 +20,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
         getSupportActionBar().setCustomView(R.layout.abs_layout);
 
-        // Find the button that show the login Button
-        Button loginButton = (Button) findViewById(R.id.button_login_page);
 
-        // Set a click listener on the button
-        loginButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Create a new intent to open the {@link HomeActivity}
-                Intent homeIntent = new Intent(MainActivity.this, HomeActivity.this);
-
-                // Start the new HomeActivity
-                startActivity(homeIntent);
-            }
-        });
     }
 
 
