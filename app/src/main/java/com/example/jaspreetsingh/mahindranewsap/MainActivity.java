@@ -23,6 +23,13 @@ public class MainActivity extends AppCompatActivity {
         // Find the button that show the login Button
         Button loginButton = (Button) findViewById(R.id.button_login_page);
 
+        // Set a click listener on the button
+        loginButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 
 }
