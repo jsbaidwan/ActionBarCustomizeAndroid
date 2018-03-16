@@ -20,8 +20,9 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
         getSupportActionBar().setCustomView(R.layout.abs_layout);
 
+        // Find the button that show the login Button
+        Button loginButton = (Button) findViewById(R.id.button_login_page);
 
     }
-
 
 }
