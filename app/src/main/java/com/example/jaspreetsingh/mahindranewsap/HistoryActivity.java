@@ -16,5 +16,6 @@ public class HistoryActivity extends AppCompatActivity {
         setContentView(R.layout.activity_history);
         //getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
         getSupportActionBar().setCustomView(R.layout.abs_layout);
+
     }
 }
